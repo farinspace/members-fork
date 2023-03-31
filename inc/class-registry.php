@@ -57,15 +57,6 @@ class Registry {
 	private function __clone() {}
 
 	/**
-	 * Lock down `__wakeup()`.
-	 *
-	 * @since  2.0.0
-	 * @access private
-	 * @return void
-	 */
-	private function __wakeup() {}
-
-	/**
 	 * Register an item.
 	 *
 	 * @since  2.0.0
