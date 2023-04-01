@@ -1,3 +1,11 @@
+# Members-fork
+
+This is a forked version of the "Members" plugin by [Justin Tadlock](http://justintadlock.com) which is now [maintained by MemberPress](https://memberpress.com/blog/members-role-editor-plugin-is-joining-the-caseproof-family/).
+
+This version has a few fixes and updates to maintain its usability and is provided AS-IS.
+
+Unless you have a specific reason for using this fork, you should probably use the [Members By MemberPress](https://wordpress.org/plugins/members/) version.
+
 # Members
 
 Members is a plugin that extends your control over your blog.  It's a user, role, and capability management plugin that was created to make WordPress a more powerful CMS.
@@ -14,10 +22,6 @@ It puts you in control over permissions on your site by providing a user interfa
 * **Shortcodes:** Shortcodes to control who has access to content.
 * **Widgets:**  A login form widget and users widget to show in your theme's sidebars.
 * **Private Site:** You can make your site and its feed completely private if you want.
-
-## Professional Support
-
-If you need professional plugin support from me, the plugin author, you can access the support forums at [Theme Hybrid](https://themehybrid.com/board/topics), which is a professional WordPress help/support site where I handle support for all my plugins and themes for a community of 75,000+ users (and growing).
 
 ## Copyright and License
 
@@ -86,7 +90,7 @@ Now, further suppose **User A** has the **Super** role because you want them to 
 - `publish_posts`
 - `edit_products`
 
-For whatever reason you don't ever want users with the **Super** role to be able to publish posts.  Now you have a problem.  One way to solve this is to create a third role with just the caps that you want and give that single role to **User A**.  However, that becomes cumbersome on larger sites with many roles.  
+For whatever reason you don't ever want users with the **Super** role to be able to publish posts.  Now you have a problem.  One way to solve this is to create a third role with just the caps that you want and give that single role to **User A**.  However, that becomes cumbersome on larger sites with many roles.
 
 Instead, you could explicitly *deny* the publish posts capability to the **Super** role.  When you do that, **User A** is only *granted* the following capabilities:
 
