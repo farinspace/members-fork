@@ -3,8 +3,8 @@
 Contributors: greenshady
 Donate link: https://themehybrid.com/plugins/members#donate
 Tags: capabilities, roles, members, users
-Requires at least: 4.7
-Tested up to: 5.2
+Requires at least: 5.2
+Tested up to: 6.2
 Requires PHP: 5.6
 Stable tag: 2.2.0
 License: GPLv2 or later
@@ -39,10 +39,6 @@ The Members plugin is a massive project with 1,000s of lines of code to maintain
 * [Making a donation](https://themehybrid.com/plugins/members#donate).
 * [Signing up at my site](https://themehybrid.com/plugins/members).
 * [Rating the plugin](https://wordpress.org/support/view/plugin-reviews/members?rate=5#postform).
-
-### Professional Support
-
-If you need professional plugin support from me, the plugin author, you can access the support forums at [Theme Hybrid](https://themehybrid.com/board/topics), which is a professional WordPress help/support site where I handle support for all my plugins and themes for a community of 75,000+ users (and growing).
 
 ### Plugin Development
 
